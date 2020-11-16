@@ -1,0 +1,15 @@
+<!-- 展示用户信息 -->
+<view class="header">
+  <image src="{{UserAvatar}}" class="touxiang" bindtap="setUserAvatar"></image>
+  <text>{{userInfo.nickName}}</text>
+</view>
+
+<!-- 使用 button 来授权登录 -->
+<view class="">
+<button wx:if='{{!isLogin}}' open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button>
+</view>
+
+<!-- 意见反馈 -->
+<view class="info-items">
+  <button class="button" open-type="feedback">意见反馈</button>
+</view>
