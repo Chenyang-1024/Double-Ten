@@ -1,7 +1,8 @@
 Page({
   data: {
     isLogin: false,
-    UserAvatar: null
+    UserAvatar: "../../images/user/Default_Img.jpg",
+    UserName: "点击更换头像"
   },
   // 获取用户信息
   bindGetUserInfo (event) {
@@ -9,6 +10,7 @@ Page({
     this.setData({
       userInfo: event.detail.userInfo,
       UserAvatar: event.detail.userInfo.avatarUrl,
+      UserName: event.detail.userInfo.nickName,
       isLogin: true
     })
   },
