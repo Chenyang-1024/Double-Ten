@@ -2,7 +2,7 @@ Page({
   data: {
     isLogin: false,
     UserAvatar: "../../images/user/Default_Img.jpg",
-    UserName: "点击更换头像"
+    UserName: "未登录"
   },
   // 获取用户信息
   bindGetUserInfo (event) {
@@ -29,5 +29,9 @@ Page({
         })
       }
     })
+  },
+  // 登出账号
+  return () {
+    
   }
 })
