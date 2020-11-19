@@ -1,6 +1,6 @@
 /* 实现圆形头像 */
 page {
-  background: gainsboro;
+  background: white;
 }
 
 .header {
@@ -12,27 +12,34 @@ page {
   background: white;
 }
 
+.login {
+  color: #008c8c;
+}
+
 .touxiang {
   border-radius: 50%;
   width: 128rpx;
   height: 128rpx;
   margin-top: 30rpx;
-  border: 1px solid rgb(116, 106, 106);
+  border: 1px solid #008c8c;
 }
 
-.button {
-  width: 100%;
-  background: white;
-  /* border: 1px; */
-  text-align: left;
-  padding: 7px 10px;
-  margin: 0px;
-  line-height: 1.6;
-  border-radius: 0;
+.NickName {
+  color: #008c8c;
 }
+
 .button::after {
   border: none;
-  border-radius: 0;
+}
+.button {
+  width: 100px;
+  color: white;
+  background: #008c8c;
+  /* border: 1px; */
+  text-align: center;
+  padding: 0rpx 100rpx;
+  margin-top: 100px;
+  border-radius: 30px;
 }
 .button_title {
   font-size: 1rem;
