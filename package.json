@@ -1,0 +1,14 @@
+{
+  "name": "maketodos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "maketodos.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
